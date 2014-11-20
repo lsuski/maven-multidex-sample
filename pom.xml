@@ -13,7 +13,7 @@
         <platform.version>4.1.1.4
         </platform.version>
         <android-maven-plugin.version>4.0.0-SNAPSHOT</android-maven-plugin.version>
-        <android-maven-plugin.groupId>com.jayway.maven.plugins.android.generation2</android-maven-plugin.groupId>
+        <android-maven-plugin.groupId>com.simpligility.maven.plugins</android-maven-plugin.groupId>
     </properties>
 
     <dependencies>
