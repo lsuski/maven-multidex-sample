@@ -7,6 +7,8 @@ other classes including activities come to secondary dexes.
 Proguard is enabled without shrinking.
 
 To make it works you have to install multidex.jar in local m2 repository as
-  <groupId>com.android.support</groupId>
-            <artifactId>multidex</artifactId>
-            <version>20</version>
+
+```xml
+<groupId>com.android.support</groupId>
+<artifactId>multidex</artifactId>
+<version>20</version>
