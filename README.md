@@ -1,0 +1,7 @@
+maven-multidex-sample
+=====================
+
+This sample project checks android-maven-plugin multi-dex mechanism.
+Flag minimal-main-dex is set to true to ensure that only classes listed in MainDexList.txt come in classes.dex, 
+other classes including activities come to secondary dexes.
+Proguard is enabled without shrinking.
