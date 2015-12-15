@@ -57,7 +57,7 @@
             <plugin>
                 <groupId>${android-maven-plugin.groupId}</groupId>
                 <artifactId>android-maven-plugin</artifactId>
-                <!--version>${android-maven-plugin.version}</version-->
+                <version>${android-maven-plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
                     <includeLibsJarsFromAar>true</includeLibsJarsFromAar>
@@ -82,19 +82,4 @@
         </plugins>
     </build>
 	
-	<repositories>
-	<repository>
-			<id>at.ac.ait.hbs.android</id>
-			<name>AIT - Android Repository</name>
-			<layout>default</layout>
-			<url>http://dev.arcsmed.at/nexus/content/repositories/android</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
 </project>
